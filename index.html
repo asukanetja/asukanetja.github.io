@@ -1,74 +1,54 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <title>Asukanet Software - Free Windows Tools</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="LinkFix and other free tools from Asukanet for Windows users.">
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2338773336731263"
-     crossorigin="anonymous"></script>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f9f9f9;
-      color: #333;
-      max-width: 800px;
-      margin: auto;
-      padding: 2em;
-      line-height: 1.6;
-    }
-    h1 {
-      color: #1d9bf0;
-      text-align: center;
-    }
-    a {
-      color: #1d9bf0;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    ul li {
-      margin-bottom: 1em;
-    }
-    .adsense {
-      text-align: center;
-      margin: 2em 0;
-    }
-  </style>
+  <title>あすか通信 - 案件募集＆LinkFix</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>Welcome to Asukanet</h1>
+<body class="bg-blue-50 text-gray-800 font-sans">
+  <div class="max-w-xl mx-auto py-6 px-4">
+    <!-- プロフィール風ヘッダー -->
+    <div class="bg-white rounded-xl shadow p-4 mb-4">
+      <div class="flex items-center space-x-4">
+        <img src="logo_asuka.png" alt="あすか通信ロゴ" class="w-16 h-16 rounded-full border" />
+        <div>
+          <h1 class="text-xl font-bold">あすか通信</h1>
+          <p class="text-sm text-gray-500">@asuka_com</p>
+          <p class="text-sm text-gray-600">通信機器設置・PC設定／大阪府東大阪市高井田中4-6-29</p>
+        </div>
+      </div>
+    </div>
 
-  <p>Asukanet develops free and lightweight tools for Windows users.</p>
-  <p><strong>LinkFix</strong> is a shortcut management utility that helps users batch replace the target and working directory fields of .lnk files.</p>
-  <p>It is ideal for power users, IT admins, and anyone who manages large collections of shortcuts after migrating folders or reinstalling Windows.</p>
+    <!-- 案件募集カード -->
+    <div class="bg-white rounded-xl shadow p-4 mb-4">
+      <p class="text-sm text-gray-500 mb-2">案件募集 - 2025/05/12</p>
+      <p class="mb-2">通信作業スタッフ募集しています！LAN配線・PC設定が中心。未経験OK、売上の <span class="font-bold text-blue-600">60%</span> 支給。</p>
+      <p class="text-sm text-blue-500">#未経験OK #出来高制 #社用車あり #大阪市内 #直行直帰</p>
+    </div>
 
-  <ul>
-    <li><a href="https://asukanetja.github.io/linkfix/">LinkFix - Shortcut batch editor</a></li>
-  </ul>
+    <!-- LinkFix 紹介カード -->
+    <div class="bg-white rounded-xl shadow p-4 mb-4">
+      <p class="text-sm text-gray-500 mb-2">フリーソフト紹介 - LinkFix</p>
+      <p class="mb-2 font-semibold">Windowsショートカット(.lnk)のリンク先を一括置換できる無料ツール</p>
+      <ul class="list-disc pl-5 text-sm text-gray-700 mb-2">
+        <li>複数ファイルを一括処理</li>
+        <li>作業フォルダの置換も対応</li>
+        <li>日本語＆英語版あり</li>
+      </ul>
+      <a href="https://asukanetja.github.io/linkfix/" class="text-blue-600 underline">▶ LinkFix ダウンロードはこちら</a>
+    </div>
 
-  <div class="adsense">
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-    <ins class="adsbygoogle"
-         style="display:block; text-align:center;"
-         data-ad-layout="in-article"
-         data-ad-format="fluid"
-         data-ad-client="ca-pub-2338773336731263"
-         data-ad-slot="1234567890"></ins>
+    <!-- お問い合わせカード -->
+    <div class="bg-white rounded-xl shadow p-4">
+      <p class="text-sm text-gray-500 mb-2">お問い合わせ</p>
+      <p class="text-sm">LINEでのご連絡またはフォームにてお問い合わせください。</p>
+      <ul class="text-sm text-gray-700 mt-2">
+        <li>LINE: <span class="text-blue-600">QRコードから追加</span></li>
+        <li>メールフォーム: <a href="#contact" class="text-blue-600 underline">こちら</a></li>
+      </ul>
+    </div>
   </div>
-
-  <p style="text-align:center; font-size: 0.9em; color: #999;">
-    &copy; 2024 Asukanet Communication. All rights reserved.
-  </p>
 </body>
 </html>
